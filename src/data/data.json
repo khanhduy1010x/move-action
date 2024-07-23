@@ -1,0 +1,191 @@
+{
+  "Header": {
+    "title": "We are a Landing Page",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+  },
+  "OURJOURNEY": {
+    "paragraph": "Welcome to the official One Piece Live Action website! We are dedicated to bringing the beloved world of One Piece to life through a thrilling live-action adaptation. Our mission is to stay true to the spirit of the original manga and anime while delivering an unforgettable experience for both long-time fans and newcomers alike",
+    "Why": [
+      "Die-hard One Piece fans",
+      "Top-notch production values",
+      "True to source",
+      "Action-packed adventures"
+    ],
+    "Why2": [
+      "Eye-catching special effects",
+      "Intense and thrilling fights",
+      "Beloved crew members featured",
+      "Rich, detailed environments"
+    ]
+  },
+  "MOMENTS": [
+    {
+      "title": "Moment 1",
+      "largeImage": "img/momen15.jpg",
+      "smallImage": "img/momen15.jpg"
+    },
+    {
+      "title":  "Moment 2",
+      "largeImage": "img/moment1(1).jpg",
+      "smallImage": "img/moment1(1).jpg"
+    },
+    {
+      "title":  "Moment 3",
+      "largeImage": "img/moment7(1).jpg",
+      "smallImage": "img/moment7(1).jpg"
+    },
+    {
+      "title":  "Moment 4",
+      "largeImage": "img/moment9(1).jpg",
+      "smallImage": "img/moment9(1).jpg"
+    },
+    {
+      "title":  "Moment 5",
+      "largeImage": "img/moment10(1).jpg",
+      "smallImage": "img/moment10(1).jpg"
+    },
+    {
+      "title":  "Moment 6",
+      "largeImage": "img/moment11(1).jpg",
+      "smallImage": "img/moment11(1).jpg"
+    },
+    {
+      "title":  "Moment 7",
+      "largeImage": "img/moment12.jpg",
+      "smallImage": "img/moment12.jpg"
+    },
+    {
+      "title":  "Moment 8",
+      "largeImage": "img/moment13.jpg",
+      "smallImage": "img/moment13.jpg"
+    },
+    {
+      "title":  "Moment 9",
+      "largeImage": "img/moment14.jpg",
+      "smallImage": "img/moment14.jpg"
+    }
+  ],
+  "DEVILFRUITS": [
+    {
+      "image": "img/Acqui1.png",
+      "name": "Gomu Gomu no Mi",
+      "text": "Grants the user the ability to stretch, inflate, and twist their body like rubber, making them immune to physical attacks and bullets."
+    },
+    {
+       "shake":"",
+      "image": "img/gura.png",
+      "name": "Gura Gura no Mi",
+      "text": "Enables the user to generate powerful shockwaves and create earthquakes, which can devastate landscapes and destroy buildings."
+    },
+    {
+      "image": "img/hehe.png",
+      "name": "Hie Hie no Mi",
+      "text": " Gives the user the power to create, control, and become ice, allowing them to freeze opponents and objects instantly and create ice structures."
+    },
+    {
+      "image": "img/Mera.png",
+      "name": "Mera Mera no Mi",
+      "text": "Allows the user to create, control, and transform into fire, making them capable of launching fire-based attacks and becoming immune to fire"
+    },
+    {
+      "image": "img/ope.png",
+      "name": "Ope Ope no Mi",
+      "text": " Grants the user the ability to create a spherical space or \"room\" in which they can manipulate the positions and conditions of objects and people, performing miraculous surgeries and attacks."
+    },
+    {
+      "image": "img/pika.png",
+      "name": "Bomu Bomu",
+      "text": "People who eat this fruit have the ability to turn their body into a bomb and create explosions without being harmed."
+    }
+  ],
+  "ACTORSSAY": [
+    {
+      "img": "img/luxfi.jpg",
+      "text": "Death is not a way to repay you, people don't save you for that reason.",
+      "name": "Luffy"
+    },
+    {
+      "img": "img/nami.jpg",
+      "text": "Life is like a pencil, it's bound to end. But it will leave great beautiful strokes",
+      "name": "Nami"
+    },
+    {
+      "img": "img/zoro.jpg",
+      "text": "If I can't protect even the captain's dream, then all my ambitions are empty words! Luffy must be the one who will become the Pirate King!",
+      "name": "Zoro"
+    },
+    {
+      "img": "img/sanjii.jpg",
+      "text": "Real men are always ready to forgive women's LIES",
+      "name": "Sanji"
+    },
+    {
+      "img": "img/uppsoo.jpg",
+      "text": "A man has to fight when the dreams of his comrades are laughed at",
+      "name": "Usopp"
+    },
+    {
+      "img": "img/luxfi.jpg",
+      "text": "I have to be stronger, otherwise I won't be able to protect anyone",
+      "name": "Luffy"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/namii.jpg",
+      "name": "Emily Rudd",
+      "job": "Nami"
+    },
+    {
+      "img": "img/lufyreal.jpg",
+      "name": "Iñaki Godoy",
+      "job": "Luffy"
+    },
+    {
+      "img": "img/zororeal.jpg",
+      "name": "Mackenyu",
+      "job": "Zoro"
+    },
+    {
+      "img": "img/sanjjireal.jpg",
+      "name": "Taz Skylar",
+      "job": "Sanji"
+    },
+    {
+      "img": "img/upsoreal.jpg",
+      "name": "Jacob Gibson",
+      "job": "Upsso"
+    }
+   
+  ],
+  "Contact": {
+    "address": "Viet Nam",
+    "phone": "1800 59999",
+    "email": "gr6maidinh.com",
+    "facebook": "maczakubur.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "FACTORPOINTS": [
+    {
+      "image": "img/action-icon.png",
+      "title": "Acting",
+      "text": "An image of a character acting with distinct costume and clear facial expressions, such as Luffy with his straw hat and characteristic smile."
+    },
+    {
+      "image": "img/suitOP.png",
+      "title": "Design",
+      "text": " An image of a detailed pirate ship, including elements like masts, pirate flags, and a character in complex pirate attire."
+    },
+    {
+      "image": "img/Effect.png",
+      "title": "Effects",
+      "text": "An image of a battle scene with special effects like fire, sparks, and dynamic character actions, such as Zoro wielding a glowing sword."
+    },
+    {
+      "image": "img/orignal.png",
+      "title": "Plot",
+      "text": "An image of a book with the One Piece logo on the cover, next to a film reel to represent the adaptation from manga/anime to live-action."
+    }
+  ]
+}
