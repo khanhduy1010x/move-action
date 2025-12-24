@@ -10,15 +10,56 @@ export const Header = (props) => {
     });
   }, []);
   return (
-    <header id="header" data-aos="zoom-out">
-        <div className="intro text-center"> 
-        <img className="img-banner" src="img/banner.png" />   
-            <video autoPlay  width="1460"  muted loop id="myVideo">
-                <source src={videoOP} type="video/mp4" />
-                Your browser does not support HTML5 video.
-            </video>       
-            <div class="overlay"></div>       
-        </div>
-    </header>
+ <header id="header" data-aos="zoom-out">
+  <div style={{ textAlign: "center" }}>
+    <div
+      style={{
+        position: "relative",
+        width: "1460px",
+        margin: "0 auto",
+      }}
+    >
+      {/* VIDEO */}
+      <video
+        autoPlay
+        muted
+        loop
+        style={{
+          width: "100%",
+          display: "block",
+        }}
+      >
+        <source src={videoOP} type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+
+      {/* IMAGE CENTER */}
+      <img
+        src={'move-action/' + 'img/banner.png'}
+alt="One Piece Banner"
+        style={{
+          position: "absolute",
+          top: "80%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          maxWidth: "40%",
+          zIndex: 2,
+          pointerEvents: "none",
+        }}
+      />
+
+      {/* OVERLAY (optional) */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background: "rgba(0,0,0,0.25)",
+          zIndex: 1,
+        }}
+      />
+    </div>
+  </div>
+</header>
+
   );
 };

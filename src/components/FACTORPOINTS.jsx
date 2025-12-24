@@ -19,7 +19,7 @@ export const FACTORPOINTS = (props) => {
                 <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
                   {" "}
                   <div className="icon-wrapper border-GOLD" >
-                  <img className="img-circlee" src={d.image}></img>
+                  <img className="img-circlee"  src={'move-action/' + d.image} alt={d.title}></img>
                   </div>
                  
                   <h3>{d.title}</h3>

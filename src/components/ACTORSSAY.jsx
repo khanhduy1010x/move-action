@@ -22,7 +22,7 @@ export const ACTORSSAY = (props) => {
                   <div className="testimonial">
                     <div className="testimonial-image border-GOLD">
                       {" "}
-                      <img src={d.img} alt="" />{" "}
+                      <img src={'move-action/' + d.img} alt="" />{" "}
                     </div>
                     <div className="testimonial-content">
                       <p>"{d.text}"</p>

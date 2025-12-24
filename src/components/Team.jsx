@@ -10,7 +10,7 @@ export const Team = (props) => {
      });
   }, []);
   return (
-    <div id="team" className="text-center" data-aos="fade-up"
+    <div id="team" style={{border: "2px solid gold"}} className="text-center" data-aos="fade-up"
    >
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
@@ -26,7 +26,7 @@ export const Team = (props) => {
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
                   <div className="thumbnail">
                     {" "}
-                    <img src={d.img} alt="..." className="team-img border-GOLD" />
+                    <img src={'move-action/' + d.img} alt="..." className="team-img border-GOLD" />
                     <div className="caption">
                       <h4>{d.name}</h4>
                       <p>{d.job}</p>

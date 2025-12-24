@@ -16,7 +16,7 @@ export const OURJOURNEY = (props) => {
   }, []);
 
   return (
-    
+    <div> 
     <div id="OURJOURNEY" data-aos="fade-right">
         
       <div className="container">
@@ -34,16 +34,16 @@ export const OURJOURNEY = (props) => {
               </ol>
               <div className="carousel-inner">
                 <div className="item active">
-                  <img className="image-caro" src={Caro1} alt="Los Angeles" />
+                  <img className="image-caro" src={ Caro1} alt="Los Angeles" />
                 </div>
                 <div className="item">
-                  <img className="image-caro" src={Caro2} alt="Chicago" />
+                  <img className="image-caro" src={ Caro2} alt="Chicago" />
                 </div>
                 <div className="item">
-                  <img className="image-caro" src={Caro3} alt="New York" />
+                  <img className="image-caro" src={ Caro3} alt="New York" />
                 </div>
                 <div className="item">
-                  <img className="image-caro" src={Caro4} alt="New York" />
+                  <img className="image-caro" src={ Caro4} alt="New York" />
                 </div>
               </div>
             </div>
@@ -78,6 +78,7 @@ export const OURJOURNEY = (props) => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -88,7 +88,7 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <img src="../img/luffy_chibi.png" alt="ImgButton" className="button-img" />
+                <img src="move-action/img/luffy_chibi.png" alt="ImgButton" className="button-img" />
                 <button type="submit" className="btn btn-custom btn-lg">                
                   Send Message
                 </button>

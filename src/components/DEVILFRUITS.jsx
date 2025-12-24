@@ -134,7 +134,7 @@ export const DEVILFRUITS = (props) => {
                     <img
                       data-aos="zoom-in"
                       className="img-circleee"
-                      src={d.image}
+                      src={'move-action/' + d.image}
                       alt={d.name}
                     />
                   </div>
